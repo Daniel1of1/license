@@ -31,4 +31,4 @@ npm install license
 
 ##Contribution
 
-Is *Very* welcome. Thanks :)
+Is **Very** welcome. Thanks :)
