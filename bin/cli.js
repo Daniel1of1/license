@@ -41,7 +41,7 @@ var parseArgs=function(defaults) {
     }
 
     var args=optimist
-        .usage('Generate a license\nUsage: $0 [-h]\n$0 [-l]\n$0 [ -o [OWNER] -p [PROJECT] -y [YEAR] ] [license]\n$0 [--config] [--header]')
+        .usage('Generate a license\nUsage: $0 [-h]\n$0 [-l]\n$0 [ -o [OWNER] -p [PROJECT] -y [YEAR] ] [license]\n$0 [--config[.key <VALUE>]]\n$0 [--header]')
         .options('h', {
             alias : 'help',
             description : "show this help menu"

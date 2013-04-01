@@ -1,12 +1,12 @@
 {
   "name": "license",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A tool to generate common FOSS LICENSE files",
   "main": "./licenser.js",
   "directories" : {
       "lib" : ".",
       "bin" : "./bin",
-      "templates" : "./templates",
+      "templates" : "./templates"
     },
   "repository": {
         "type" : "git",
