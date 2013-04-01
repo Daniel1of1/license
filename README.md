@@ -1,7 +1,7 @@
 license
 =======
 
-###a port/ blatent rip-off of [lice](https://github.com/jcarbaugh/lice) by [jcarbaugh](https://github.com/jcarbaugh), largely done as a (node/javascript) learning exercise.
+###a port / rip-off of [lice](https://github.com/jcarbaugh/lice) by [jcarbaugh](https://github.com/jcarbaugh), largely done as a (node/javascript) learning exercise.
 
 npm module to generate common FOSS licenses with a cli
 ```
@@ -21,3 +21,14 @@ Options:
  available:[year], [project], [licenseType], [organisation]
   --header            just get the license header                                                                             
 ```
+
+
+##Installation
+
+```
+npm install license
+```
+
+##Contribution
+
+Is *Very* welcome. Thanks :)
