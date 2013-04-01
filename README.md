@@ -2,7 +2,7 @@ license
 =======
 
 npm module to generate common FOSS licenses with a cli
-
+```
 Usage: license [-h]
 license [-l]
 license [ -o [OWNER] -p [PROJECT] -y [YEAR] ] [license]
@@ -18,4 +18,4 @@ Options:
   --config            set default values: usage --config.key value
  available:[year], [project], [licenseType], [organisation]
   --header            just get the license header                                                                             
-
+```
