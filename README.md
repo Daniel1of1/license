@@ -1,6 +1,8 @@
 license
 =======
 
+a port/ blatent rip-off of [lice](https://github.com/jcarbaugh/lice). Largely done as a (node/javascript) learning exercise.
+
 npm module to generate common FOSS licenses with a cli
 ```
 Usage: license [-h]
