@@ -116,8 +116,14 @@ var runCli=function(args){
                 return optimist.showHelp();
             };
             if (args.l) {
-                console.log(licenser.licenseTypes);
+                licenser.licenseTypes(function(err, licenseTypes){
+                    console.log(licenseTypes);
+                    process.exit(0);
+                });
             };
+
+        },
+        function (callback){
             if (args.config) {
                 if (args.config===true) {
                     showConfig();
@@ -128,7 +134,6 @@ var runCli=function(args){
                 });
             }
             else callback(null);
-
         },
 
         function (callback){
