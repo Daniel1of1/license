@@ -120,7 +120,8 @@ var runCli=function(args){
                     console.log(licenseTypes);
                     process.exit(0);
                 });
-            };
+            }
+            else callback(null);
 
         },
         function (callback){
