@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 
-var licenser=require("../licenser.js");
+var licenser=require("../license.js");
 var fs=require("fs");
 var optimist =require('optimist');
 var config=require("../.config.json");
@@ -114,6 +114,9 @@ var runCli=function(args){
         function (callback){
             if (args.h) {
                 return optimist.showHelp();
+            };
+            if (args.l) {
+                console.log(licenser.licenseTypes);
             };
             if (args.config) {
                 if (args.config===true) {
