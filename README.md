@@ -1,6 +1,8 @@
 license
 =======
 
+####Warning: Please note the version number, this is in no way 'production' ready... but should work as expected/ intended ... ie a convenient little cli
+
 ####TODO: much better docs
 
 ###a port / rip-off of [lice](https://github.com/jcarbaugh/lice) by [jcarbaugh](https://github.com/jcarbaugh), largely done as a (node/javascript) learning exercise.
