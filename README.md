@@ -1,11 +1,11 @@
 license
 =======
 
-####Warning: Please note the version number, this is in no way 'production' ready... but should work as expected/ intended ... ie a convenient little cli
+#### Warning: Please note the version number, this is in no way 'production' ready... but should work as expected/ intended ... ie a convenient little CLI
 
-####TODO: much better docs
+#### TODO: much better docs
 
-###a port / rip-off of [lice](https://github.com/jcarbaugh/lice) by [jcarbaugh](https://github.com/jcarbaugh), largely done as a (node/javascript) learning exercise.
+### a port / rip-off of [lice](https://github.com/jcarbaugh/lice) by [jcarbaugh](https://github.com/jcarbaugh), largely done as a (node/javascript) learning exercise.
 
 npm module to generate common FOSS licenses with a cli
 ```
@@ -27,12 +27,12 @@ Options:
 ```
 
 
-##Installation
+## Installation
 
 ```
-npm install license
+npm install -g license
 ```
 
-##Contribution
+## Contribution
 
-Is **Very** welcome. Thanks :)
+Is **very** welcome. Thanks :)
