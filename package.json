@@ -2,7 +2,7 @@
   "name": "license",
   "version": "0.0.3",
   "description": "A tool to generate common FOSS LICENSE files",
-  "main": "./licenser.js",
+  "main": "./license.js",
   "directories" : {
       "lib" : ".",
       "bin" : "./bin",
